@@ -32,3 +32,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Routing Types
+
+index.js is the root page. Also the homepage of that particular folder. /about is the outer route. Folder is also considered a route here. /blog/first is a nested route.
+
+/product/[productId] is a dynamic route. productId can be set on the browser itself. If /product/sweater is selected it first checks if that file is present first. If not then only it goes to /product/[productId].
